@@ -17,12 +17,16 @@ console.log("Fat Arrow functions");
 //   return a + b;
 // };
 
-let a = 30;
-let b = 40;
+// let a = 30;
+// let b = 40;
 // const sum = () => {
 //   return a + b;
 // };
 
 //If single statement used the return keyword and curly braces are also optional
-const sum = () => a + b;
-console.log(sum());
+// const sum = () => a + b;
+
+let a = 30;
+const sum = (b) => a + b;
+
+console.log(sum(60));
