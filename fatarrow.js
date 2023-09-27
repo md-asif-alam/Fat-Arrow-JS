@@ -26,7 +26,7 @@ console.log("Fat Arrow functions");
 //If single statement used the return keyword and curly braces are also optional
 // const sum = () => a + b;
 
-let a = 30;
-const sum = (b) => a + b;
+// let a = 30;
+const sum = (a, b) => a + b;
 
-console.log(sum(60));
+console.log(sum(60, 20));
