@@ -11,9 +11,15 @@ console.log("Fat Arrow functions");
 
 //ES6
 
+// const sum = () => {
+//   let a = 10;
+//   let b = 20;
+//   return a + b;
+// };
+
+let a = 30;
+let b = 20;
 const sum = () => {
-  let a = 10;
-  let b = 20;
   return a + b;
 };
 
